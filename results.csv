@@ -1,0 +1,11 @@
+Algorithm;Key Length;Operation;Average Time in μs
+AES;128 bits;Encryption;90.651
+AES;128 bits;Decryption;92.295
+AES;192 bits;Encryption;86.449
+AES;192 bits;Decryption;91.612
+AES;256 bits;Encryption;86.396
+AES;256 bits;Decryption;91.396
+DES;56 bits;Encryption;97.268
+DES;56 bits;Decryption;97.977
+TDES;168 bits;Encryption;230.951
+TDES;168 bits;Decryption;230.583
