@@ -97,17 +97,17 @@ def main():
     mean_des3_dec_168_time = mean(des3_dec_168_time)
 
     with open("results.csv", "w", encoding="utf-8") as results_file:
-        results_file.write("Algorithm;Key Length;Operation;Average Time in μs\n")
-        results_file.write("AES;128 bits;Encryption;{m}\n".format(m=round(mean_aes_enc_128_time/1000, 3)))
-        results_file.write("AES;128 bits;Decryption;{m}\n".format(m=round(mean_aes_dec_128_time/1000, 3)))
-        results_file.write("AES;192 bits;Encryption;{m}\n".format(m=round(mean_aes_enc_192_time/1000, 3)))
-        results_file.write("AES;192 bits;Decryption;{m}\n".format(m=round(mean_aes_dec_192_time/1000, 3)))
-        results_file.write("AES;256 bits;Encryption;{m}\n".format(m=round(mean_aes_enc_256_time/1000, 3)))
-        results_file.write("AES;256 bits;Decryption;{m}\n".format(m=round(mean_aes_dec_256_time/1000, 3)))
-        results_file.write("DES;56 bits;Encryption;{m}\n".format(m=round(mean_des_enc_56_time/1000, 3)))
-        results_file.write("DES;56 bits;Decryption;{m}\n".format(m=round(mean_des_dec_56_time/1000, 3)))
-        results_file.write("TDES;168 bits;Encryption;{m}\n".format(m=round(mean_des3_enc_168_time/1000, 3)))
-        results_file.write("TDES;168 bits;Decryption;{m}".format(m=round(mean_des3_dec_168_time/1000, 3)))
+        results_file.write("Algorithm,Key Length,Operation,Average Time in μs\n")
+        results_file.write("AES,128 bits,Encryption,{m}\n".format(m=round(mean_aes_enc_128_time/1000, 3)))
+        results_file.write("AES,128 bits,Decryption,{m}\n".format(m=round(mean_aes_dec_128_time/1000, 3)))
+        results_file.write("AES,192 bits,Encryption,{m}\n".format(m=round(mean_aes_enc_192_time/1000, 3)))
+        results_file.write("AES,192 bits,Decryption,{m}\n".format(m=round(mean_aes_dec_192_time/1000, 3)))
+        results_file.write("AES,256 bits,Encryption,{m}\n".format(m=round(mean_aes_enc_256_time/1000, 3)))
+        results_file.write("AES,256 bits,Decryption,{m}\n".format(m=round(mean_aes_dec_256_time/1000, 3)))
+        results_file.write("DES,56 bits,Encryption,{m}\n".format(m=round(mean_des_enc_56_time/1000, 3)))
+        results_file.write("DES,56 bits,Decryption,{m}\n".format(m=round(mean_des_dec_56_time/1000, 3)))
+        results_file.write("TDES,168 bits,Encryption,{m}\n".format(m=round(mean_des3_enc_168_time/1000, 3)))
+        results_file.write("TDES,168 bits,Decryption,{m}".format(m=round(mean_des3_dec_168_time/1000, 3)))
         results_file.close()
 
 if __name__ == "__main__":
