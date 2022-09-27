@@ -5,7 +5,7 @@ The results are given in microseconds as an average of 1000000 run using 1000 di
 The test was performed on a Raspberry Pi 4 Model B with 8GB of RAM and a SanDisk Ultra 32GB microSDHC card.
 The Raspberry Pi OS Desktop 32-bit operating system was used (built on Debian 11 bullseye) with kernel version 5.15 and released on 2022-09-06.
 
-# Results
+## Results
 Algorithm | Key Length | Operation | Average Time in μs
 --- | --- | --- | ---
 AES | 128 bits | Encryption | 90.651
@@ -21,21 +21,13 @@ TDES | 168 bits | Decryption | 230.583
 
 <details><summary>References</summary>
 
-https://www.python.org/downloads/release/python-392/
-
-https://pycryptodome.readthedocs.io/en/latest/index.html
-
-https://www.nist.gov/publications/advanced-encryption-standard-aes
-
-https://csrc.nist.gov/publications/detail/fips/46/3/archive/1999-10-25
-
-https://csrc.nist.gov/publications/detail/sp/800-67/rev-1/archive/2012-01-23
-
-https://csrc.nist.gov/publications/detail/sp/800-38a/final
-
-https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/
-
-https://www.westerndigital.com/en-se/products/memory-cards/sandisk-ultra-uhs-i-microsd
-
-https://downloads.raspberrypi.org/raspios_armhf/release_notes.txt
+- Python 3.9.2: https://www.python.org/downloads/release/python-392
+- PyCryptodome: https://pycryptodome.readthedocs.io/en/latest
+- AES: https://www.nist.gov/publications/advanced-encryption-standard-aes
+- DES: https://csrc.nist.gov/publications/detail/fips/46/3/archive/1999-10-25
+- TDES: https://csrc.nist.gov/publications/detail/sp/800-67/rev-1/archive/2012-01-23
+- Block Cipher Modes of Operation: https://csrc.nist.gov/publications/detail/sp/800-38a/final
+- Raspberry Pi 4: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications
+- SanDisk Ultra microSD: https://www.westerndigital.com/en-se/products/memory-cards/sandisk-ultra-uhs-i-microsd
+- Raspberry Pi OS: https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
 </details>
