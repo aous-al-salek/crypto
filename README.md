@@ -28,6 +28,6 @@ TDES | 168 bits | Decryption | 230.583
 - TDES: https://csrc.nist.gov/publications/detail/sp/800-67/rev-1/archive/2012-01-23
 - Block Cipher Modes of Operation: https://csrc.nist.gov/publications/detail/sp/800-38a/final
 - Raspberry Pi 4: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications
-- SanDisk Ultra microSD: https://www.westerndigital.com/en-se/products/memory-cards/sandisk-ultra-uhs-i-microsd
+- SanDisk microSD: https://www.westerndigital.com/en-se/products/memory-cards/sandisk-ultra-uhs-i-microsd
 - Raspberry Pi OS: https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
 </details>
