@@ -88,67 +88,67 @@ The Raspberry Pi OS Desktop 32-bit operating system was used (built on Debian 11
         <td>Algorithm</td>
         <td>Key Length</td>
         <td>Operation</td>
-        <td>Average Time in μs</td>
+        <td>Average Time in ms</td>
     </tr>
     <tr>
         <td>AES</td>
         <td>128 bits</td>
         <td>Encryption</td>
-        <td>56622.105</td>
+        <td>56.622</td>
     </tr>
     <tr>
         <td>AES</td>
         <td>128 bits</td>
         <td>Decryption</td>
-        <td>49143.186</td>
+        <td>49.143</td>
     </tr>
     <tr>
         <td>AES</td>
         <td>192 bits</td>
         <td>Encryption</td>
-        <td>59183.29</td>
+        <td>59.183</td>
     </tr>
     <tr>
         <td>AES</td>
         <td>192 bits</td>
         <td>Decryption</td>
-        <td>51596.22</td>
+        <td>51.596</td>
     </tr>
     <tr>
         <td>AES</td>
         <td>256 bits</td>
         <td>Encryption</td>
-        <td>61691.122</td>
+        <td>61.691</td>
     </tr>
     <tr>
         <td>AES</td>
         <td>256 bits</td>
         <td>Decryption</td>
-        <td>54107.9</td>
+        <td>54.107</td>
     </tr>
     <tr>
         <td>DES</td>
         <td>56 bits</td>
         <td>Encryption</td>
-        <td>75640.248</td>
+        <td>75.640</td>
     </tr>
     <tr>
         <td>DES</td>
         <td>56 bits</td>
         <td>Decryption</td>
-        <td>68907.121</td>
+        <td>68.907</td>
     </tr>
     <tr>
         <td>TDES</td>
         <td>168 bits</td>
         <td>Encryption</td>
-        <td>131653.007</td>
+        <td>131.653</td>
     </tr>
     <tr>
         <td>TDES</td>
         <td>168 bits</td>
         <td>Decryption</td>
-        <td>125361.151</td>
+        <td>125.361</td>
     </tr>
 </table>
 
