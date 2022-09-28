@@ -3,6 +3,7 @@ Performance comparison between CBC-DES, CBC-TDES, CBC-AES128, CBC-AES192, and CB
 Performance is measured in Python 3.9.2 and the encryption algorithms are implemented in PyCryptodome 3.15.0.
 The results are given in microseconds as an average of 1000000 run using 1000 different keys.
 The test was performed on a Raspberry Pi 4 Model B with 8GB of RAM and a SanDisk Ultra 32GB microSDHC card.
+The Raspberry Pi 4 Model B was powered using an Raspberry Pi Official USB-C Power Supply rated at 5.1V / 3.0A DC output.
 The Raspberry Pi OS Desktop 32-bit operating system was used (built on Debian 11 bullseye) with kernel version 5.15 and released on 2022-09-06.
 
 ## Results
@@ -29,6 +30,7 @@ TDES | 168 bits | Decryption | 230.583
 - CVE-2016-2183: https://nvd.nist.gov/vuln/detail/CVE-2016-2183
 - Block Cipher Modes of Operation: https://csrc.nist.gov/publications/detail/sp/800-38a/final
 - Raspberry Pi 4: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications
+- Raspberry Pi PSU: https://www.raspberrypi.com/products/type-c-power-supply
 - SanDisk microSD: https://www.westerndigital.com/en-se/products/memory-cards/sandisk-ultra-uhs-i-microsd
 - Raspberry Pi OS: https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
 </details>
