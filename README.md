@@ -155,7 +155,7 @@ The Raspberry Pi OS Desktop 32-bit operating system was used (built on Debian 11
 <details><summary>References</summary>
 
 - Python 3.9.2: https://www.python.org/downloads/release/python-392
-- PyCryptodome: https://pycryptodome.readthedocs.io/en/latest
+- PyCryptodome 3.15.0: https://pycryptodome.readthedocs.io/en/latest
 - AES: https://www.nist.gov/publications/advanced-encryption-standard-aes
 - DES: https://csrc.nist.gov/publications/detail/fips/46/3/archive/1999-10-25
 - TDES: https://csrc.nist.gov/publications/detail/sp/800-67/rev-1/archive/2012-01-23
