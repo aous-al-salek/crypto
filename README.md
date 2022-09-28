@@ -26,6 +26,7 @@ TDES | 168 bits | Decryption | 230.583
 - AES: https://www.nist.gov/publications/advanced-encryption-standard-aes
 - DES: https://csrc.nist.gov/publications/detail/fips/46/3/archive/1999-10-25
 - TDES: https://csrc.nist.gov/publications/detail/sp/800-67/rev-1/archive/2012-01-23
+- CVE-2016-2183: https://nvd.nist.gov/vuln/detail/CVE-2016-2183
 - Block Cipher Modes of Operation: https://csrc.nist.gov/publications/detail/sp/800-38a/final
 - Raspberry Pi 4: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications
 - SanDisk microSD: https://www.westerndigital.com/en-se/products/memory-cards/sandisk-ultra-uhs-i-microsd
