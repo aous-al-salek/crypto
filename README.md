@@ -7,18 +7,78 @@ The Raspberry Pi 4 Model B was powered using an Raspberry Pi Official USB-C Powe
 The Raspberry Pi OS Desktop 32-bit operating system was used (built on Debian 11 bullseye) with kernel version 5.15 and released on 2022-09-06.
 
 ## Results
-Algorithm | Key Length | Operation | Average Time in μs
---- | --- | --- | ---
-AES | 128 bits | Encryption | 90.651
-AES | 128 bits | Decryption | 92.295
-AES | 192 bits | Encryption | 86.449
-AES | 192 bits | Decryption | 91.612
-AES | 256 bits | Encryption | 86.396
-AES | 256 bits | Decryption | 91.396
-DES | 56 bits | Encryption | 97.268
-DES | 56 bits | Decryption | 97.977
-TDES | 168 bits | Encryption | 230.951
-TDES | 168 bits | Decryption | 230.583
+<table>
+    <tr>
+        <td colspan="4"><b><p align="center">Encryption of "Cryptology is awesome!"</p></b></td>
+    </tr>
+    <tr>
+        <td><b>Algorithm</b></td>
+        <td><b>Key Length</b></td>
+        <td><b>Operation</b></td>
+        <td><b>Average Time in μs</b></td>
+    </tr>
+    <tr>
+        <td>AES</td>
+        <td>128 bits</td>
+        <td>Encryption</td>
+        <td>90.651</td>
+    </tr>
+    <tr>
+        <td>AES</td>
+        <td>128 bits</td>
+        <td>Decryption</td>
+        <td>92.295</td>
+    </tr>
+    <tr>
+        <td>AES</td>
+        <td>192 bits</td>
+        <td>Encryption</td>
+        <td>86.449</td>
+    </tr>
+    <tr>
+        <td>AES</td>
+        <td>192 bits</td>
+        <td>Decryption</td>
+        <td>91.612</td>
+    </tr>
+    <tr>
+        <td>AES</td>
+        <td>256 bits</td>
+        <td>Encryption</td>
+        <td>86.396</td>
+    </tr>
+    <tr>
+        <td>AES</td>
+        <td>256 bits</td>
+        <td>Decryption</td>
+        <td>91.396</td>
+    </tr>
+    <tr>
+        <td>DES</td>
+        <td>56 bits</td>
+        <td>Encryption</td>
+        <td>97.268</td>
+    </tr>
+    <tr>
+        <td>DES</td>
+        <td>56 bits</td>
+        <td>Decryption</td>
+        <td>97.977</td>
+    </tr>
+    <tr>
+        <td>TDES</td>
+        <td>168 bits</td>
+        <td>Encryption</td>
+        <td>230.951</td>
+    </tr>
+    <tr>
+        <td>TDES</td>
+        <td>168 bits</td>
+        <td>Decryption</td>
+        <td>230.583</td>
+    </tr>
+</table>
+
 
 <details><summary>References</summary>
 
