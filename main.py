@@ -18,7 +18,8 @@ def main():
     des3_enc_168_time = []
     des3_dec_168_time = []
 
-    msg = b"Cryptology is awesome!"
+    #msg = b"Cryptology is awesome!"
+    msg = b"0".zfill(1000000)
 
     for i in range(1000):
         key56 = get_random_bytes(8)
