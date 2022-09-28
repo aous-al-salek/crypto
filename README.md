@@ -4,7 +4,8 @@ Performance is measured in Python 3.9.2 and the encryption algorithms are implem
 The results are given in microseconds as an average of 1000000 run using 1000 different keys.
 The test was performed on a Raspberry Pi 4 Model B with 8GB of RAM and a SanDisk Ultra 32GB microSDHC card.
 The Raspberry Pi 4 Model B was powered using an Raspberry Pi Official USB-C Power Supply rated at 5.1V / 3.0A DC output.
-The Raspberry Pi OS Desktop 32-bit operating system was used (built on Debian 11 bullseye) with kernel version 5.15 and released on 2022-09-06.
+The Raspberry Pi OS 11 Desktop 32-bit operating system was used (built on Debian 11 bullseye) with kernel version 5.15 and released on 2022-09-06.
+The Raspberry Pi ran EEPROM version 2022-04-26.
 
 ## Results of encrypting "Cryptology is awesome!"
 <table>
@@ -165,4 +166,5 @@ The Raspberry Pi OS Desktop 32-bit operating system was used (built on Debian 11
 - Raspberry Pi PSU: https://www.raspberrypi.com/products/type-c-power-supply
 - SanDisk microSD: https://www.westerndigital.com/en-se/products/memory-cards/sandisk-ultra-uhs-i-microsd
 - Raspberry Pi OS (2022-09-06): https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
+- Raspberry Pi EEPROM 2022-04-26: https://github.com/raspberrypi/rpi-eeprom/releases/tag/v2022.04.26-138a1
 </details>
