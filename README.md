@@ -164,5 +164,5 @@ The Raspberry Pi OS Desktop 32-bit operating system was used (built on Debian 11
 - Raspberry Pi 4: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications
 - Raspberry Pi PSU: https://www.raspberrypi.com/products/type-c-power-supply
 - SanDisk microSD: https://www.westerndigital.com/en-se/products/memory-cards/sandisk-ultra-uhs-i-microsd
-- Raspberry Pi OS: https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
+- Raspberry Pi OS (2022-09-06): https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
 </details>
