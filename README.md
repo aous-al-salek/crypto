@@ -12,7 +12,7 @@ An important difference is that the implementation Ascon used for the comparison
 This difference may be the explanation for why the results of the Ascon cipher are not as optimal as the other ciphers despite the Ascon cipher being lightweight.
 This will certainly change in the near future as implementations of the relatively new algorithm mature over time.
 Please understand that the results of the Ascon cipher are certainly not representative of what the final standard will offer.
-As of 2023-05-05, NIST has only selected the algorithm for standardization, meaning that no standard has been published yet [Learn more](https://csrc.nist.gov/News/2023/lightweight-cryptography-nist-selects-ascon).
+As of 2023-05-05, NIST has only selected the algorithm for standardization, meaning that no standard has been published yet [learn more](https://csrc.nist.gov/News/2023/lightweight-cryptography-nist-selects-ascon).
 
 ## Results of encrypting "Cryptology is awesome!"
 <table>
@@ -246,4 +246,5 @@ As of 2023-05-05, NIST has only selected the algorithm for standardization, mean
 - SanDisk microSD: https://www.westerndigital.com/en-se/products/memory-cards/sandisk-ultra-uhs-i-microsd
 - Raspberry Pi OS (2022-09-06): https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
 - Raspberry Pi EEPROM 2022-04-26: https://github.com/raspberrypi/rpi-eeprom/releases/tag/v2022.04.26-138a1
+- Lightweight Cryptography Standardization Process - NIST Selects Ascon: https://csrc.nist.gov/News/2023/lightweight-cryptography-nist-selects-ascon
 </details>
