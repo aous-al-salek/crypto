@@ -9,3 +9,9 @@ DES,56 bits,Encryption,75640.248
 DES,56 bits,Decryption,68907.121
 TDES,168 bits,Encryption,131653.007
 TDES,168 bits,Decryption,125361.151
+Ascon-128,128 bits,Encryption,163052760.318
+Ascon-128,128 bits,Decryption,155050325.165
+Ascon-128a,128 bits,Encryption,75514417.508
+Ascon-128a,128 bits,Decryption,75557523.936
+Ascon-80pq,160 bits,Encryption,153483195.43
+Ascon-80pq,160 bits,Decryption,154344326.498

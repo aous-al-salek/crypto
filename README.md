@@ -1,11 +1,18 @@
 # Crypto
 Performance comparison between CBC-DES, CBC-TDES, CBC-AES128, CBC-AES192, and CBC-AES256.
 Performance is measured in Python 3.9.2 and the encryption algorithms are implemented in PyCryptodome 3.15.0.
-The results are given in microseconds as an average of 1000000 run using 1000 different keys.
+The results are given in microseconds as an average of 1000000 runs using 1000 different keys.
 The test was performed on a Raspberry Pi 4 Model B with 8GB of RAM and a SanDisk Ultra 32GB microSDHC card.
-The Raspberry Pi 4 Model B was powered using an Raspberry Pi Official USB-C Power Supply rated at 5.1V / 3.0A DC output.
+The Raspberry Pi 4 Model B was powered using a Raspberry Pi Official USB-C Power Supply rated at 5.1V / 3.0A DC output.
 The Raspberry Pi OS 11 Desktop 32-bit operating system was used (built on Debian 11 bullseye) with kernel version 5.15 and released on 2022-09-06.
 The Raspberry Pi ran EEPROM version 2022-04-26.
+
+On 2023-05-05 a performance benchmark of Ascon-128, Ascon-128a, and Ascon-80pq was added to the results and the code. The same methodology was utilized.
+An important difference is that the implementation Ascon used for the comparison is [pyascon](https://github.com/meichlseder/pyascon).
+This difference may be the explanation for why the results of the Ascon cipher are not as optimal as the other ciphers despite the Ascon cipher being lightweight.
+This will certainly change in the near future as implementations of the relatively new algorithm mature over time.
+Please understand that the results of the Ascon cipher are certainly not representative of what the final standard will offer.
+As of 2023-05-05, NIST has only selected the algorithm for standardization, meaning that no standard has been published yet [Learn more](https://csrc.nist.gov/News/2023/lightweight-cryptography-nist-selects-ascon).
 
 ## Results of encrypting "Cryptology is awesome!"
 <table>
@@ -77,6 +84,42 @@ The Raspberry Pi ran EEPROM version 2022-04-26.
         <td>168 bits</td>
         <td>Decryption</td>
         <td>230.583</td>
+    </tr>
+    <tr>
+        <td>Ascon-128</td>
+        <td>128 bits</td>
+        <td>Encryption</td>
+        <td>1590.162</td>
+    </tr>
+    <tr>
+        <td>Ascon-128</td>
+        <td>128 bits</td>
+        <td>Decryption</td>
+        <td>1592.171</td>
+    </tr>
+    <tr>
+        <td>Ascon-128a</td>
+        <td>128 bits</td>
+        <td>Encryption</td>
+        <td>1413.171</td>
+    </tr>
+    <tr>
+        <td>Ascon-128a</td>
+        <td>128 bits</td>
+        <td>Decryption</td>
+        <td>1414.268</td>
+    </tr>
+    <tr>
+        <td>Ascon-80pq</td>
+        <td>160 bits</td>
+        <td>Encryption</td>
+        <td>1596.779</td>
+    </tr>
+    <tr>
+        <td>Ascon-80pq</td>
+        <td>160 bits</td>
+        <td>Decryption</td>
+        <td>1594.475</td>
     </tr>
 </table>
 
@@ -150,6 +193,42 @@ The Raspberry Pi ran EEPROM version 2022-04-26.
         <td>168 bits</td>
         <td>Decryption</td>
         <td>125.361</td>
+    </tr>
+        <tr>
+        <td>Ascon-128</td>
+        <td>128 bits</td>
+        <td>Encryption</td>
+        <td>163052.76</td>
+    </tr>
+    <tr>
+        <td>Ascon-128</td>
+        <td>128 bits</td>
+        <td>Decryption</td>
+        <td>155050.325</td>
+    </tr>
+    <tr>
+        <td>Ascon-128a</td>
+        <td>128 bits</td>
+        <td>Encryption</td>
+        <td>75514.418</td>
+    </tr>
+    <tr>
+        <td>Ascon-128a</td>
+        <td>128 bits</td>
+        <td>Decryption</td>
+        <td>75557.524</td>
+    </tr>
+    <tr>
+        <td>Ascon-80pq</td>
+        <td>160 bits</td>
+        <td>Encryption</td>
+        <td>153483.195</td>
+    </tr>
+    <tr>
+        <td>Ascon-80pq</td>
+        <td>160 bits</td>
+        <td>Decryption</td>
+        <td>154344.326</td>
     </tr>
 </table>
 
